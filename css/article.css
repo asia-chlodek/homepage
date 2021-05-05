@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(151, 199, 199);
+    text-align: center;
+    max-width: 1000px;
+    margin: 15px 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.changebody {
+    background-color: rgb(214, 226, 243);
+}
+
+.navigation {
+    overflow-x: auto;
+}
+
+.navigation__list {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navigation__link {
+    color: rgb(152, 8, 172);
+    text-decoration: none;
+    box-shadow: 2px 1px 3px rgb(152, 8, 172);
+}
+
+.navigation__link:visited {
+    outline: none;
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.section__subtitle {
+    color: blue;
+    font-size: 22px;
+}
+
+.section__paragraph {
+    font-size: 18px;
+}
+
+.section__table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    border-width: 2px 5px;
+    border-style: ridge;
+    border-color: black;
+    padding: 10px;
+    background-color: rgb(151, 199, 199);
+}
+
+.section__tableHeader {
+    background-color: white;
+    font-weight: normal;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section__tableCell {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
